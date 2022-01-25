@@ -70,7 +70,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Responsive Tablet   | M | 3hr   | hr |
 | Responsive PC       | M | 5hr   | hr |
 
-| Total | H | 15.5hrs| hrs |
+| Total | H | 22.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -80,7 +80,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Image Carousel         | L | 3hr | hr |
 | Interactive Nav Bar    | M | 2hr | hr |
 
-| Total | H | 20hrs| hrs |
+| Total | H | 6hrs| hrs |
 
 ## Additional Libraries
  - JavaScript/JQuery to animate sections moving when clicked.
