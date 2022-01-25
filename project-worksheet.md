@@ -18,7 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Describe portfolio project, what languages using and for what, goal of project
+The purpose of this project is to create a portofolio showcasing my skills in HTML, CSS, and JavaScript/JQuery. HTML will allow me to add and structure content. Colors, background images, fonts, and positioning will be modified using CSS. JavaScript and JQuery will be the metaphorical "bells and whistle" of the website. They'll add transitions and transformations, making my website more dynamic and eye-interactive.
 
 ## Wireframes
 
@@ -57,29 +57,28 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 #### MVP
 
-`Translate image to this`
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
+
+| Layout              | H | 5hr   | hr |
+| About Me            | H | 1.5hr | hr |
+| Projects            | H | 1.5hr | hr |  
+| Adding Form         | H | 1.5hr | hr | 
+| Contact             | H | 2hr   | hr |
+| Grid Page           | H | 2hr   | hr | 
+| Grid Projects       | H | 1hr   | hr |
+| Responsive Tablet   | M | 3hr   | hr |
+| Responsive PC       | M | 5hr   | hr |
 
 | Total | H | 15.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
+
+| Arrows                 | L | 1hr | hr |
+| Image Carousel         | L | 3hr | hr |
+| Interactive Nav Bar    | M | 2hr | hr |
 
 | Total | H | 20hrs| hrs |
 
