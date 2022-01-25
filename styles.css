@@ -1,0 +1,96 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER & BACKGROUND IMAGE */
+
+header {
+    
+}
+
+/* ABOUT ME */
+.about-me {
+    grid-template-rows: 2/3;
+    
+}
+
+.about-me-title {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-subsubtitle {
+    display: flex;
+    justify-content: center;
+}
+.about-me-body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* PROJECTS */
+.projects {
+    grid-template-rows: 3/4;
+    
+}
+
+.projects-title {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-items {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* CONTACT */
+.contact-me {
+    grid-template-rows: 4/5;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-items {
+    list-style-type: none;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* RESPONSIVE CSS TABLET */
+
+
+
+
+/* RESPONSIVE CSS PC */
