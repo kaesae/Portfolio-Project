@@ -91,6 +91,7 @@ header {
 .project1-1 {
     height: 60px;
     width: 60px;
+    border-radius: 50px;
 }
 #project0 .projects-row2 {
     margin: 20px 0 0 0;
@@ -238,6 +239,7 @@ header {
     .project1-1 {
         height: 60px;
         width: 60px;
+        border-radius: 50px;
     }
     #project0 .projects-row2 {
         margin: 20px 0 0 0;
@@ -318,12 +320,15 @@ header {
         
         .about-me {
             background-color: rgb(0, 0, 0, 70%);
+            border-radius: 20px;
         }
         .projects {
             background-color: rgb(0, 0, 0, 75%);
+            border-radius: 20px;
         }
         .contact-me {
             background-color: rgb(0, 0, 0, 80%);
+            border-radius: 20px;
         }
 
         /* ABOUT ME */
@@ -394,6 +399,7 @@ header {
         .project1-1 {
             height: 60px;
             width: 60px;
+            border-radius: 50px;
         }
         #project0 .projects-row2 {
             margin: 20px 0 0 0;
