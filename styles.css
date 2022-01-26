@@ -7,21 +7,18 @@ body {
     justify-content: center;
     font-family: 'Bitter', serif;
     background-color: rgb(87, 87, 87);
-    background-image: url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+    background: linear-gradient(to top, transparent, black 70%),
+        url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
     width: 390px;
     color: rgb(253, 253, 253);
-    /* background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
-    color: black;
-    background-size: cover; */
 }
 
 /* HEADER & BACKGROUND IMAGE */
 
 header {
-    /* background-image: url("https://i.ibb.co/NCr4KpX/IMG-5358.jpg"); */
-    background-size: cover;
-    background: linear-gradient(to bottom, transparent, black)
+    background: linear-gradient(to bottom, transparent, black 110%),
         url("https://i.ibb.co/NCr4KpX/IMG-5358.jpg");
+    background-size: cover;
     height: 550px;
     width: auto;
     margin: -10px -10px 0 -10px;
