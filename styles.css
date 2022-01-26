@@ -7,7 +7,7 @@ body {
     justify-content: center;
     font-family: 'Bitter', serif;
     background-color: rgb(87, 87, 87);
-    background: linear-gradient(to top, transparent, black 70%),
+    background: linear-gradient(to top, transparent, black 75%),
         url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
     width: 390px;
     color: rgb(253, 253, 253);
@@ -20,8 +20,8 @@ header {
         url("https://i.ibb.co/NCr4KpX/IMG-5358.jpg");
     background-size: cover;
     height: 550px;
-    width: auto;
-    margin: -10px -10px 0 -10px;
+    width: 300;
+    margin: -120px -10px 0 -10px;
 }
 
 /* ABOUT ME */
@@ -30,38 +30,37 @@ header {
     margin: 0 0 0 0;
 }
 
+/* ABOUT ME TITLE */
 .about-me-title {
     display: flex;
     justify-content: center;
     margin: 0 0 0 0;
 
 }
-
 .about-me-subtitle {
     display: flex;
     justify-content: center;
-    margin: 0 0 0 0;
+    margin: -5px 0 0 0;
     font-size: small;
 
 }
-
 .about-me-subsubtitle {
     display: flex;
     justify-content: center;
-    margin: 0 0 30px 0;
+    margin: 5px 0 30px 0;
     font-size: small;
 }
+
+/* ABOUT ME BODY */
 .about-me-body {
     display: flex;
     justify-content: center;
     padding: 1em;
 }
-
 .about-me-capital {
     font-size: xx-large;
-    padding: 0 0 10px 0;
+    padding: 0 0 10px 20px;
 }
-
 .about-me-the-rest {
     margin: 13px 0 0 0;
 }
@@ -71,29 +70,27 @@ header {
     grid-template-rows: 3/4;
     
 }
-
 .projects-title {
     display: flex;
     justify-content: center;
 }
 
+/* PROJECTS ITEMS */
 .projects-list {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 0 10px 0 25px;
 }
-
 .projects-items {
     list-style-type: none;
+    padding: 20px 0 20px 0;
 }
-
 .project1-1 {
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 }
-
-
 #project0 .projects-row2 {
     margin: 20px 0 0 0;
 }
@@ -102,12 +99,12 @@ header {
 .contact-me {
     grid-template-rows: 4/5;
 }
-
 .contact-title {
     display: flex;
     justify-content: center;
 }
 
+/* CONTACT ITEMS */
 .contact-items {
     list-style-type: none;
     display: grid;
@@ -115,17 +112,14 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0 0 0 -35px;
 }
-
 .phone {
     display: flex;
     justify-content: center;
 }
-
 .email {
     display: flex;
     justify-content: center;
 }
-
 .linkedin {
     display: flex;
     justify-content: center;
