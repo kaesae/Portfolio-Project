@@ -5,6 +5,11 @@ body {
     grid-template-rows: 2fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    font-family: 'Bitter', serif;
+    background-color: rgb(87, 87, 87);
+    color: rgb(253, 253, 253);
+    background-image: url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+    width: 390px;
 }
 
 /* HEADER & BACKGROUND IMAGE */
@@ -47,7 +52,6 @@ header {
 .about-me-body {
     display: flex;
     justify-content: center;
-    font-family: 'Bitter', serif;
 }
 
 .about-me-capital {
@@ -75,6 +79,10 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+#project0 .projects-row2 {
+    margin: 20px 0 0 0;
 }
 
 /* CONTACT */
