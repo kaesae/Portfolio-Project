@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 20% 20% 20%;
     align-items: center;
     justify-content: center;
     font-family: 'Bitter', serif;
@@ -11,6 +11,7 @@ body {
         url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
     width: 390px;
     color: rgb(253, 253, 253);
+    background-repeat: no-repeat;
 }
 
 /* HEADER & BACKGROUND IMAGE */
@@ -21,13 +22,13 @@ header {
     background-size: cover;
     height: 550px;
     width: 300;
-    margin: -120px -10px 0 -10px;
+    margin: -10px -10px 0 -10px;
 }
 
 /* ABOUT ME */
 .about-me {
     grid-template-rows: 2/3;
-    margin: 0 0 0 0;
+    margin: 0 0 5em 0;
 }
 
 /* ABOUT ME TITLE */
