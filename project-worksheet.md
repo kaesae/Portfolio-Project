@@ -60,15 +60,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 
-| Layout              | H | 5hr   | hr |
-| About Me            | H | 1.5hr | hr |
-| Projects            | H | 1.5hr | hr |  
-| Adding Form         | H | 1.5hr | hr | 
-| Contact             | H | 2hr   | hr |
-| Grid Page           | H | 2hr   | hr | 
-| Grid Projects       | H | 1hr   | hr |
-| Responsive Tablet   | M | 3hr   | hr |
-| Responsive PC       | M | 5hr   | hr |
+| Layout              | H | 5hr   | 9hr |
+| About Me            | H | 1.5hr | 45min |
+| Projects            | H | 1.5hr | 10min |  
+| Contact             | H | 2hr   | 10min |
+| Grid Page           | H | 2hr   | 90min | 
+| Grid Projects       | H | 1hr   | 2hr |
+| Responsive Tablet   | M | 3hr   | 2hr |
+| Responsive PC       | M | 5hr   | 3hr |
+| Debugging           | M | 3hr   | 3hr |
+
 
 | Total | H | 22.5hrs| hrs |
 
@@ -83,14 +84,29 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| hrs |
 
 ## Additional Libraries
- - JavaScript/JQuery to animate sections moving when clicked.
+ - JavaScript/JQuery to animate sections moving when clicked on PC resolution.
 
 ## Code Snippet
-
+@media only screen and (min-width: 150px) and (max-width: 767px) {
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 20% 20% 20%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bitter', serif;
+    background-color: rgb(194, 163, 163);
+    background: linear-gradient(to top, transparent, black 75%),
+        url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+    width: 390px;
+    color: rgb(253, 253, 253);
+    background-repeat: no-repeat;
+}
 
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+- Media Queries not reading correctly with just mix-wdith or max-width.
+->Resolution: Use both min- and max-width for each media query.
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
