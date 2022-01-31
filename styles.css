@@ -184,7 +184,7 @@ header {
     .about-me {
         grid-row: 4/5;
         grid-column: 1/2;
-        margin: 3em 0 0 0;
+        /* margin: 1em 0 0 0; */
     }
 
     /* ABOUT ME TITLE */
@@ -229,7 +229,7 @@ header {
         margin: 3em 0 0 0;
         grid-row: 4/6;
         grid-column: 2/3;
-        margin: -5em 0 0 0;
+        margin: 1.5em 0 0 0;
     }
     .projects-title {
         display: flex;
@@ -261,6 +261,7 @@ header {
     .contact-me {
         grid-row: 5/6;
         grid-column: 1/2;
+        margin: 3em 0 0 0;
     }
     .contact-title {
         display: flex;
@@ -274,7 +275,7 @@ header {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        margin: 0 0 0 -35px;
+        margin: 0 0 0 -30px;
     }
     .phone {
         display: flex;

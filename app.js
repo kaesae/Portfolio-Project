@@ -8,5 +8,6 @@ $(() => {
     $($div3).attr("class", "nav")
     $("body").append($div1, $div2, $div3)
 
-    
+    // .onclick function()
+    // window.open email
 });

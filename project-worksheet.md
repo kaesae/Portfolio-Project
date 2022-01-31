@@ -107,6 +107,8 @@ body {
 ## Issues and Resolutions
 - Media Queries not reading correctly with just mix-wdith or max-width.
 ->Resolution: Use both min- and max-width for each media query.
+- Double checking codes. Looking for -s's where there should and shouldn't be.
+->Resolutions: grid-column-rows and grid-rows to grid-row
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
