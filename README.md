@@ -11,9 +11,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description                             | Complete
 |Day 2| Wireframes / Priority Matrix / Timeline         | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.)    | Complete
-|Day 4| MVP & Bug Fixes                                 | Incomplete
-|Day 5| Final Touches                                   | Incomplete
-|Day 6| Present                                         | Incomplete
+|Day 4| MVP & Bug Fixes                                 | Complete
+|Day 5| Final Touches                                   | Complete
+|Day 6| Present                                         | Complete
 
 
 ## Project Description
@@ -68,10 +68,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Grid Projects       | H | 1hr   | 2hr |
 | Responsive Tablet   | M | 3hr   | 2hr |
 | Responsive PC       | M | 5hr   | 3hr |
-| Debugging           | M | 3hr   | 3hr |
+| Debugging           | M | 3hr   | 15hr |
 
 
-| Total | H | 22.5hrs| hrs |
+| Total | H | 34.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -87,29 +87,58 @@ Time frames are also key in the development cycle.  You have limited time to cod
  - JavaScript/JQuery to animate sections moving when clicked on PC resolution.
 
 ## Code Snippet
-@media only screen and (min-width: 150px) and (max-width: 767px) {
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40% 20% 20% 20%;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bitter', serif;
-    background-color: rgb(194, 163, 163);
-    background: linear-gradient(to top, transparent, black 75%),
-        url("https://images.unsplash.com/photo-1624139283078-74a0492f2ee3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
-    width: 390px;
-    color: rgb(253, 253, 253);
-    background-repeat: no-repeat;
-}
+ - Show/Hide Div function that connects divs in a vertical navbar to divs in a body.
+
+const toggleAboutMe = document.querySelector('.navbar1');
+const toggleProjects = document.querySelector('.navbar2');
+const toggleContactMe = document.querySelector('.navbar3');
+const $aboutMeDiv = document.querySelector('.about-me');
+const $projectsDiv = document.querySelector('.projects');
+const $contactMeDiv = document.querySelector('.contact-me');
+
+
+toggleAboutMe.addEventListener('click', () => {
+    if($aboutMeDiv.style.display === 'block') {
+        $($projectsDiv).css("display", "none")
+        $($contactMeDiv).css("display", "none")
+    } else {
+        $($aboutMeDiv).css("display", "block")
+        $($projectsDiv).css("display", "none")
+        $($contactMeDiv).css("display", "none")
+    }
+})
+
+toggleProjects.addEventListener('click', () => {
+    if($projectsDiv.style.display === 'block') {
+        $($aboutMeDiv).css("display", "none")
+        $($contactMeDiv).css("display", "none")
+    } else {
+        $($aboutMeDiv).css("display", "none")
+        $($projectsDiv).css("display", "block")
+        $($contactMeDiv).css("display", "none")
+    }
+})
+
+toggleContactMe.addEventListener('click', () => {
+    if($contactMeDiv.style.display === 'block') {
+        $($projectsDiv).css("display", "none")
+        $($aboutMeDiv).css("display", "none")
+    } else {
+        $($aboutMeDiv).css("display", "none")
+        $($projectsDiv).css("display", "none")
+        $($contactMeDiv).css("display", "block")
+    }
+})
+
+## Cited 
+ - Show/Hide Div
+ - Video: https://www.youtube.com/watch?v=R4i6k-yEdH8&t=191s
 
 
 ## Issues and Resolutions
-- Media Queries not reading correctly with just mix-wdith or max-width.
-->Resolution: Use both min- and max-width for each media query.
-- Double checking codes. Looking for -s's where there should and shouldn't be.
-->Resolutions: grid-column-rows and grid-rows to grid-row
+**ERROR**: Media Queries not reading correctly with just mix-wdith or max-width.
+**RESOLUTION**: Use both min- and max-width for each media query.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: Double checking codes. Looking for -s's where there should and shouldn't be.
+**RESOLUTION**: grid-column-rows and grid-rows to grid-row
+

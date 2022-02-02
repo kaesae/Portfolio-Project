@@ -17,7 +17,7 @@ body {
 
 /* NAV BAR */
 nav {
-    display: none;
+    
 }
 
 /* HEADER & BACKGROUND IMAGE */
@@ -335,6 +335,19 @@ header {
             border-radius: 7px;
         }
 
+        .navbar1 {
+            display: block;
+        }
+
+        .navbar2 {
+            display: block;
+        }
+
+        .navbar3 {
+            display: block;
+        }
+
+
         /* HEADER & BACKGROUND IMAGE */
         header {
             background: url("https://i.ibb.co/NCr4KpX/IMG-5358.jpg");
@@ -361,10 +374,10 @@ header {
 
         /* ABOUT ME */
         .about-me {
-            /* display: none; */
+            display: block;
             grid-row: 1/4;
             grid-column: 2/3;
-            padding: 0 0 30em 0;
+            padding: 0 2em 20em 2em;
             size: auto;
         }
 
@@ -418,8 +431,8 @@ header {
         .projects-list {
             list-style-type: none;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
             margin: 0 10px 0 25px;
         }
         .projects-items {
@@ -440,8 +453,9 @@ header {
             display: none;
             grid-row: 1/4;
             grid-column: 2/3;
-            padding: 0 0 37em 0;
+            padding: 0 0 32em 0;
             size: auto;
+            margin: 10px 10px 10px 10px;
         }
         .contact-title {
             display: flex;
